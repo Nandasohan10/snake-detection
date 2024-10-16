@@ -1,0 +1,35 @@
+### Dataset: Snakes-only-dataset-object-detection-yolo
+
+Link: https://www.kaggle.com/datasets/khushagarwalop/snakes-only-dataset-object-detection-yolo
+
+This dataset contains annotated images for fire detection in YOLO format, which can be utilized for training and evaluating fire detection models.
+
+---
+
+### Instructions for Setting Up Fire Detection Environment
+
+1. Create Conda Environment:
+    ```
+    conda create --name snake_detection python=3.10
+    ```
+
+2. Activate Conda Environment:
+    ```
+    conda activate snake_detection
+    ```
+
+3. Install Dependencies:
+    ```
+    pip install -r requirements.txt
+    Ensure you are in the environment you created (snake_detection) before running this command.
+    ```
+
+4. Run Fire Detection Script:
+    ```
+    python snake_detector.py
+    ```
+    This command will execute the fire detection script, utilizing the dataset and the installed dependencies.
+
+---
+
+Feel free to reach out if you need any further assistance or clarification on the provided instructions.
